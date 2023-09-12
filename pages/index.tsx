@@ -64,9 +64,9 @@ export default function Home() {
       >
         <source src="/slogan_video.mp4" type="video/mp4" />
       </video>
-      <div className="flex py-20">
+      <div className="flex -mb-40 bg-black bg-opacity-50 py-60 sm:py-72 -mt-14">
         <div className="flex flex-col w-11/12 m-auto text-center sm:w-8/12">
-          <img src="/slogan.png" className="w-full m-auto sm:w-8/12 " />
+          <img src="/slogan.png" className="w-full pb-10 m-auto sm:w-8/12 " />
           <p className="text-white opacity-50 ">
             Reward users for walking. Everywhere you walk,you could make money
             and have fun. Simple design,easy to use.
@@ -108,7 +108,7 @@ export default function Home() {
           ))}
         </ul>
       </div>
-      <div className=" bg-[url('/download_bg.png')] bg-cover relative pt-10">
+      <div className=" bg-[url('/download_bg.png')] bg-cover relative pt-10 pb-40 sm:py-40">
         <video
           className="absolute top-0 object-cover w-full h-full "
           autoPlay
@@ -118,10 +118,13 @@ export default function Home() {
           <source src="/download_video.mp4" type="video/mp4" />
         </video>
         <div className="relative flex flex-col w-full h-auto m-auto sm:flex-row sm:w-8/12 sm:justify-between sm:h-80">
-          <div className="pt-6 text-center sm:pt-32 sm:text-left">
-            <h1 className="text-white ">
-              walk to earn web3 app for people live in Africa & more
+          <div className="w-full pt-6 text-center sm:w-3/6 sm:pt-0 sm:text-left">
+            <h1 className="text-4xl italic font-[SairaB] text-orange-500">
+              Download the mobile app to start mining today! Join now.
             </h1>
+            <h2 className="text-white ">
+              walk to earn web3 app for people live in Africa & more
+            </h2>
             <div className="flex justify-center gap-4 mt-10 sm:justify-start">
               <button className="bg-[url('/app_android.png')] w-40 h-12 bg-contain bg-no-repeat"></button>
               <button className="bg-[url('/app_ios.png')] w-40 h-12 bg-contain bg-no-repeat"></button>
@@ -129,16 +132,21 @@ export default function Home() {
           </div>
           <img
             src="/download_mobile.png"
-            className="relative bottom-0 w-10/12 m-auto mt-4 sm:mt-0 sm:absolute sm:right-0 sm:w-6/12 h-fit"
+            className="relative w-full m-auto mt-4 -bottom-10 sm:mt-0 sm:absolute sm:right-0 sm:w-7/12 h-fit"
           />
         </div>
       </div>
-      <div className="relative z-20 pb-20 sm:pb-40">
+      <div className=" z-20 -mt-60 pb-60 sm:pb-80 bg-[url('/partners_bg.png')]  bg-[length:900px_auto] bg-no-repeat sm:bg-[length:1920px_auto] ">
         <img
-          src="/roadmap.png"
-          className="mx-auto mt-10 sm:-mt-10 w-80 h-fit"
+          src="/partners.png"
+          className="w-6/12 mx-auto mt-20 sm:mt-40 sm:w-3/12 h-fit"
         />
-        <ul className="flex flex-row flex-wrap w-full gap-2 py-8 m-auto text-white sm:flex-nowrap sm:w-8/12 ">
+        <div className="flex flex-row flex-wrap w-10/12 gap-10 m-auto sm:flex-nowrap sm:w-6/12">
+          <img src="/cyberconnect.png" className="w-4/12 sm:w-2/12 h-fit" />
+          <img src="/hooked.png" className="w-4/12 sm:w-2/12 h-fit" />
+          <img src="/lifeform.png" className="w-4/12 sm:w-2/12 h-fit" />
+        </div>
+        {/* <ul className="flex flex-row flex-wrap w-full gap-2 py-8 m-auto text-white sm:flex-nowrap sm:w-8/12 ">
           {roadmap.map((el, index) => (
             <li key={index} className="w-5/12 text-center sm:w-4/12">
               <h1 className="text-2xl italic font-[SairaB]">{el.year}</h1>
@@ -148,7 +156,7 @@ export default function Home() {
               <ul className="ml-10 text-left sm:ml-0">{desc(el.desc)}</ul>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </main>
   );

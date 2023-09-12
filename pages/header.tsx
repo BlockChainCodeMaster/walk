@@ -35,7 +35,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="flex items-center justify-between px-4 py-2">
+    <header className="relative z-10 flex items-center justify-between px-4 py-2">
       <img src="/logo.png" width={100} height={100} alt="logo" />
 
       <ul
