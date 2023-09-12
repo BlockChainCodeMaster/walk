@@ -139,12 +139,12 @@ export default function Home() {
       <div className=" z-20 -mt-60 pb-60 sm:pb-80 bg-[url('/partners_bg.png')]  bg-[length:900px_auto] bg-no-repeat sm:bg-[length:1920px_auto] ">
         <img
           src="/partners.png"
-          className="w-6/12 mx-auto mt-20 sm:mt-40 sm:w-3/12 h-fit"
+          className="object-fill w-6/12 mx-auto mt-20 sm:mt-40 sm:w-3/12"
         />
         <div className="flex flex-row flex-wrap w-10/12 gap-10 m-auto sm:flex-nowrap sm:w-6/12">
-          <img src="/cyberconnect.png" className="w-4/12 sm:w-2/12 h-fit" />
-          <img src="/hooked.png" className="w-4/12 sm:w-2/12 h-fit" />
-          <img src="/lifeform.png" className="w-4/12 sm:w-2/12 h-fit" />
+          <img src="/cyberconnect.png" className="object-fill w-4/12 sm:w-2/12" />
+          <img src="/hooked.png" className="object-fill w-4/12 sm:w-2/12" />
+          <img src="/lifeform.png" className="object-fill w-4/12 sm:w-2/12" />
         </div>
         {/* <ul className="flex flex-row flex-wrap w-full gap-2 py-8 m-auto text-white sm:flex-nowrap sm:w-8/12 ">
           {roadmap.map((el, index) => (
