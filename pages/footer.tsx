@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="relative z-20 flex flex-col justify-center bg-[url('/footer_bg.png')] h-60 -mt-48 sm:bg-[length:1920px_auto]  bg-[length:920px_auto] bg-no-repeat">
+    <footer className="relative z-20 flex flex-col justify-center bg-[url('/footer_bg.png')] h-40 -mt-36 sm:bg-[length:1920px_auto]  bg-[length:920px_auto] bg-no-repeat">
       <div className="relative z-10 w-full mt-14 sm:mt-36">
         <div className="flex flex-col items-center justify-between w-10/12 h-10 m-auto sm:flex-row sm:w-7/12">
           <div className="flex flex-row items-center justify-center gap-3">

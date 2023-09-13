@@ -141,10 +141,10 @@ export default function Home() {
           src="/partners.png"
           className="object-fill w-6/12 mx-auto mt-20 sm:mt-40 sm:w-3/12"
         />
-        <div className="flex flex-row flex-wrap w-10/12 gap-10 m-auto sm:flex-nowrap sm:w-6/12">
-          <img src="/cyberconnect.png" className="object-fill w-4/12 sm:w-2/12" />
-          <img src="/hooked.png" className="object-fill w-4/12 sm:w-2/12" />
-          <img src="/lifeform.png" className="object-fill w-4/12 sm:w-2/12" />
+        <div className="flex flex-row w-10/12 gap-10 m-auto sm:w-6/12">
+          <img src="/cyberconnect.png" className="object-fill w-3/12 sm:w-2/12" />
+          <img src="/hooked.png" className="object-fill w-3/12 sm:w-2/12" />
+          <img src="/lifeform.png" className="object-fill w-3/12 sm:w-2/12" />
         </div>
         {/* <ul className="flex flex-row flex-wrap w-full gap-2 py-8 m-auto text-white sm:flex-nowrap sm:w-8/12 ">
           {roadmap.map((el, index) => (
