@@ -4,18 +4,18 @@ export default function Home() {
   const [advantage, setAdvantage] = useState([
     {
       icon: "/rewards.svg",
-      title: "Rewards",
-      desc: "Keep fit & making money",
+      title: "DO IT TOEARN TOKENS",
+      desc: "Keep fit, protect the environment & making money.",
     },
     {
       icon: "/safety.svg",
-      title: "Safety",
-      desc: "e.g. mineral water, bread, feminine hygiene products, shoes, slippers, food",
+      title: "TRADE TOKENSFOR NECESSITIES",
+      desc: "e.g. mineral water, bread, feminine hygiene productsshoes, slippers, food, etc.",
     },
     {
       icon: "/recognition.svg",
-      title: "Recognition",
-      desc: "A healthier life style, transfer accumulated tokens to others",
+      title: "SHARE WITHOTHERS",
+      desc: "A healthier life stvle transferaccumulatedtokens to others.",
     },
   ]);
   const [roadmap, setRoadmap] = useState([
@@ -68,8 +68,8 @@ export default function Home() {
         <div className="flex flex-col w-11/12 m-auto text-center sm:w-8/12">
           <img src="/slogan.png" className="w-full pb-10 m-auto sm:w-8/12 " />
           <p className="text-white opacity-50 ">
-            Reward users for walking. Everywhere you walk,you could make money
-            and have fun. Simple design,easy to use.
+            Do it to earn web3 app for people live in Africa & inflationary
+            countries. Reward users for walking. Simple design, easy to use.
           </p>
           <p className="flex justify-center pt-10 ">
             <button className="flex flex-row items-center px-4 py-2 text-sm text-white bg-orange-600 rounded-md cursor-pointer hover:bg-orange-500">
@@ -142,7 +142,10 @@ export default function Home() {
           className="object-fill w-6/12 mx-auto mt-20 sm:mt-40 sm:w-3/12"
         />
         <div className="flex flex-row w-10/12 gap-10 m-auto sm:w-6/12">
-          <img src="/cyberconnect.png" className="object-fill w-3/12 sm:w-2/12" />
+          <img
+            src="/cyberconnect.png"
+            className="object-fill w-3/12 sm:w-2/12"
+          />
           <img src="/hooked.png" className="object-fill w-3/12 sm:w-2/12" />
           <img src="/lifeform.png" className="object-fill w-3/12 sm:w-2/12" />
         </div>
