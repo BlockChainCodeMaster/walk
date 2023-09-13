@@ -91,17 +91,17 @@ export default function Home() {
               key={index}
               className="flex flex-col justify-center  px-2 py-2 sm:px-8 sm:py-14 bg-[#D4FE58] rounded-md w-4/12"
             >
-              <i className="flex justify-center p-4 m-auto bg-white rounded-md bg-opacity-5">
+              <i className="flex justify-center p-2 sm:p-4 m-auto bg-white rounded-md bg-opacity-5">
                 <img
                   src={el.icon}
-                  className="w-10 h-10 sm:w-16 sm:h-16"
+                  className="w-8 h-8 sm:w-16 sm:h-16"
                   alt="icon"
                 />
               </i>
-              <h1 className="h-10 mt-2 sm:mt-4 text-basic  font-[SairaB] italic">
+              <h1 className="h-10 mt-2 sm:mt-4 text-xs sm:text-basic leading-3 font-[SairaB] italic">
                 {el.title}
               </h1>
-              <p className=" h-24 sm:h-10 mt-1 sm:mt-2 text-xs text-left text-black opacity-50  font-[SairaB]">
+              <p className=" h-24 sm:h-10 mt-1 sm:mt-2 text-xs leading-3 text-left text-black opacity-50  font-[SairaB]">
                 {el.desc}
               </p>
             </li>
