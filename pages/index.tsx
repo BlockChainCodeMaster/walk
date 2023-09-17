@@ -98,7 +98,7 @@ export default function Home() {
                   alt="icon"
                 />
               </i>
-              <h1 className="h-10 mt-2 sm:mt-4 text-xs sm:text-basic leading-3 font-[SairaB] italic">
+              <h1 className="h-10 mt-2 sm:mt-4 text-xs sm:text-basic text-black leading-3 font-[SairaB] italic">
                 {el.title}
               </h1>
               <p className=" h-24 sm:h-10 mt-1 sm:mt-2 text-xs leading-3 text-left text-black opacity-50  font-[SairaB]">
