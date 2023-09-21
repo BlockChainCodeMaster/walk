@@ -15,7 +15,7 @@ export default function Home() {
     {
       icon: "/recognition.svg",
       title: "SHARE WITHOTHERS",
-      desc: "A healthier life stvle transferaccumulatedtokens to others.",
+      desc: "A healthier life stvle transfer accumulated tokens to others.",
     },
   ]);
   const [roadmap, setRoadmap] = useState([
@@ -61,6 +61,7 @@ export default function Home() {
         autoPlay
         loop
         muted
+        playsInline
       >
         <source src="/slogan_video.mp4" type="video/mp4" />
       </video>
@@ -114,6 +115,7 @@ export default function Home() {
           autoPlay
           loop
           muted
+          playsInline
         >
           <source src="/download_video.mp4" type="video/mp4" />
         </video>
